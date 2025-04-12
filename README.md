@@ -10,7 +10,7 @@ Notes:
 * emails of purchase, delivery exspectation, pick up options
 payment processors
 
-note to me:
+note to me to think about:
 * no shared server
 * server location
 * what kind of support i need
@@ -30,3 +30,9 @@ note to me:
 * set up privacy policy and gdpr statements (see screenshots) --> does he have an attorney?
 * refund policy?
 * termaggedon if no attorney
+* eccomerce platforms are independent of wordpress (use woocommerce)
+* givewp plugin for gifts and tips no deliveries needed (tip jar option)
+* paid membership subscription (paidmemberhsippro)
+
+Notes during build:
+* domain name preference (something short and sweet)
