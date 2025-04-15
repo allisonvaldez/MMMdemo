@@ -4591,6 +4591,33 @@ textarea.form-control-lg {
   --bs-pagination-border-radius: 0.25rem;
 }
 
+.pagination > li > a,
+.pagination > li > span,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li > span:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.pagination > li > a:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    color: black;
+    background-color: orangered;
+    border-color: black;
+}
+
 .badge {
   --bs-badge-padding-x: 0.65em;
   --bs-badge-padding-y: 0.35em;
