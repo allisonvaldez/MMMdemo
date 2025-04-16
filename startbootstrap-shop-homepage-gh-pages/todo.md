@@ -17,9 +17,9 @@ Tue 4/15/25
 3. cart database / page
 4. move the cart and signin all the way over
 
-* events
+* events page (done)
 * instagram live feed?
 * github test of website hosting
-* doordash icon
-* ubereats
+* doordash (icon and external link, possible set up)
+* ubereats (icon and external link, possible set up)
 * shipping estimate time arrival?
