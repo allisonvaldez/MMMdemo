@@ -26,7 +26,7 @@ Tue 4/15/25
 
 Wed 4/16/25
 1. sign in html (done)
-2. database of users/demo
+2. database of users/demo (done)
 3. cart database / page
 4. move the cart and signin all the way over
 
