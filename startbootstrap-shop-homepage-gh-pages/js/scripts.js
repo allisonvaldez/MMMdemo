@@ -3,9 +3,16 @@
 * Copyright 2013-2023 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
 */
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
 
+// Signin: start with getting the modal
+var modal = document.getElementById("logIn");
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
 /*
 document.getElementById('addToCartButton').addEventListener('click', function() {
     //  Your cart logic here (add item to cart, update cart display, etc.)

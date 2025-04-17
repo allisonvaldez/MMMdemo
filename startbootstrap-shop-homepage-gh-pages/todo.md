@@ -23,3 +23,15 @@ Tue 4/15/25
 * doordash (icon and external link, possible set up)
 * ubereats (icon and external link, possible set up)
 * shipping estimate time arrival?
+
+Wed 4/16/25
+1. sign in html (done)
+2. database of users/demo
+3. cart database / page
+4. move the cart and signin all the way over
+
+* instagram live feed?
+* github test of website hosting
+* doordash (icon and external link, possible set up)
+* ubereats (icon and external link, possible set up)
+* shipping estimate time arrival?
