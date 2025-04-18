@@ -17,7 +17,7 @@ if (!isset($_SESSION["userid"]) || $_SESSION["userid"] !== true) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="Allison Valdez" />
-    <title>Welcome Landing Page</title>
+    <title>Welcome Landing Page <?php echo $_SESSION["name"]; ?></title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
@@ -129,9 +129,14 @@ if (!isset($_SESSION["userid"]) || $_SESSION["userid"] !== true) {
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
             <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-
-
+                <h1>Hello, <strong><?php echo $_SESSION["name"]; ?></strong>. Welcome!</h1>
             </div>
+            <p>
+                <a href="logout.php" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Log
+                    Out</a>
+            </p>
+
+        </div>
         </div>
     </section>
     <!-- Footer-->
